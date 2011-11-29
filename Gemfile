@@ -1,11 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+gem 'rails', '3.1.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'mysql2'
 
 gem 'activeadmin', :git => 'git://github.com/gregbell/active_admin.git'
 gem 'prawn' # Generates PDF files
@@ -33,3 +33,8 @@ gem 'choices' # Configuration files
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+gem 'prototype-rails', :git => 'git://github.com/rails/prototype-rails.git'
+
+gem 'sass'
+gem 'sass-rails'
